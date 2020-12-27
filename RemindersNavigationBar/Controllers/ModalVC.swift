@@ -68,7 +68,7 @@ class ModalVC: UITableViewController {
     
 
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let pointOfVisibility: CGFloat = -52.0 // The offset at which you want the nav bar to be visible
+        let pointOfVisibility: CGFloat = -50.0 // The offset at which you want the nav bar to be visible
         let startingPoint: CGFloat = -56.0 // The offset when the scrollview is at rest
 
         let offset = scrollView.contentOffset.y // Offset
